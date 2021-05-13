@@ -3,21 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfolio</title>
+    <style>
+        body {
+            background-color: #e9ecef;
+        }
+
+        .descricao {
+            font-family: monospace;
+        }
+
+        .nome {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .habilidade1 {
+            font-size: x-large;
+        }
+
+        .habilidade2 {
+            font-size: large;
+        }
+
+        .habilidade3 {
+            font-size: medium;
+        }
+    </style>
 </head>
 <body>
-    <p id="descricao">
-        <h1>Portfolio: André de Souza Leme</h1>
+    <p class="descricao" id="descricao">
+        <h1 class="nome">André de Souza Leme</h1>
         <img src="/images/perfil-pb.jpg" alt="foto de perfil" id="foto" width="200"> <br/>
 
-        Estudande de <em>Desenvolvimento Web</em>. Brasileiro, moro em São Bernardo do Campo, São Paulo.
+        Estudande de <em>Desenvolvimento Web</em>. <strong>Brasileiro</strong>, moro em São Bernardo do Campo, <strong>São Paulo</strong>.
     </p>
     <p id="habilidades">    
         <hr>
         <h2>Algumas de <a href="#foto">minhas</a> <em>habilidades</em>:</h2>
         <ul>
-            <li><strong>Lógica apurada</strong></li>
-            <li>Soft skills</li>
-            <li>Liderança</li>            
+            <li class="habilidade1"><strong>Lógica apurada</strong></li>
+            <li class="habilidade2">Soft skills</li>
+            <li class="habilidade3">Liderança</li>            
         </ul>
     </p>
 
